@@ -1,0 +1,8 @@
+-   id: check-changelog-updated
+    name: check if changelog file was updated
+    description: prevents write a commit without updating changelog
+    entry: check-changelog-updated
+    language: python
+    stages: [commit, manual]
+    pass_filenames: false
+
